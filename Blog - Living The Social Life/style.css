@@ -1,8 +1,203 @@
-.navbar{
-    background-color: blue;
-    display: flex;
-    width: 100vw;
-    height: 100px;
-    justify-content: center;
-    align-items: s;
+*{
+    margin: 0;
+    padding: 0;
 }
+
+header {
+    background-color: #efeded; 
+    color: black; 
+    width: 100%;
+    height: 100px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.naslov {
+   margin-top: 25px;
+   margin-left: 200px;
+   align-items: center;
+}
+.rute{
+margin-top: 20px;
+margin-right: 200px;
+}
+.rutess {
+    list-style: none;
+    display: flex; 
+}
+
+.rutess li {
+    margin-right: 20px;
+}
+.rutess li {
+    text-decoration: none; 
+    list-style: none;
+    display: flex;
+}
+.drugideo{
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.leviii{
+    padding-left: 200px;
+    height: 100%;
+    width: 70%;
+    display: flex;  
+    align-items: center;
+    flex-direction: column; 
+    margin-right: 20px;                            
+}
+.prvibre{
+    padding: 10px;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    border-bottom: 1px solid black;
+}
+.prvibre *{
+    margin-bottom: 15px;
+
+}
+.prvibre img {
+    width: 100%; 
+    max-width: 700px; 
+    height: auto;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 10px; 
+  }
+  .bold-text {
+    font-weight: bold;
+  }
+
+  .underlined-blue-text {
+    text-decoration: underline;
+    color: blue;
+  }
+
+.h4{
+    color: blue;
+}
+.drugi1,
+.drugi2,
+.drugi3 {
+  display: flex;
+  border: 1px solid #ccc;
+  margin-bottom: 20px; 
+  padding: 15px;
+}
+
+
+.drugi1 .left1,
+.drugi2 .left2,
+.drugi3 .left3 {
+  flex: 0 0 30%; 
+  margin-right: 20px; 
+}
+
+
+.drugi1 img,
+.drugi2 img,
+.drugi3 img {
+  width: 100%;
+  margin-bottom: 10px; 
+}
+
+
+.drugi1 h4,
+.drugi2 h4,
+.drugi3 h4 {
+  color: blue; 
+}
+
+
+.drugi1 .right1,
+.drugi2 .right2,
+.drugi3 .right3 {
+  flex: 1; 
+}
+
+
+.drugi1 h5,
+.drugi2 h5,
+.drugi3 h5,
+.drugi1 h1,
+.drugi2 h1,
+.drugi3 h1,
+.drugi1 p,
+.drugi2 p,
+.drugi3 p {
+  margin-bottom: 10px; 
+}
+
+.desnii{
+    margin-left: 20px;
+    display: flex;  
+    max-width: 250px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+}
+.first,
+.second {
+  border: 1px solid #ccc; 
+  padding: 15px; 
+  margin-bottom: 20px; 
+  margin-top: 30px;
+  background-color:  #efeded;
+  width: 80%;
+}
+.unutrasnji,
+.unutraaasnji {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  text-align: center; 
+  background-color: white;
+  
+}
+.unutrasnjii img{
+    width: 80%;
+    margin-bottom: 10px;
+}
+.prvi img,
+.drugi img,
+.treci img {
+    width: 80%;
+    margin-bottom: 10px;
+}
+.prvi,
+.drugi,
+.treci {
+  margin-top: 10px; 
+}
+
+hr {
+  margin: 10px 0;
+}
+.zadnjideo{
+    width: 100%;
+    height: 200px;
+   display: inline;
+   justify-content: center;
+   align-items: center;
+   background-color: blue;
+}
+.zadnjideo {
+    border: 1px solid red;
+    background-color: blue; 
+    color: black; 
+    text-align: center; 
+
+    left: 0;
+    bottom: 0;
+    width: 100%; 
+    height: 200px; 
+    /* box-sizing: border-box;  */
+  }
+  
